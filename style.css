@@ -113,7 +113,7 @@ input {
 .intro_input{
     width: 315px;
     margin-bottom: 10px;
-    color: #677cad;
+    color: #4b6fc4;
     border: 2px solid #fff;
     background-color:transparent;
     padding: 10px 0 10px 5px;
@@ -139,9 +139,6 @@ input {
     margin-left: -155px;
 }
 
-.intro__medal {
-
-}
 
 .intro__item {
     display: flex;
@@ -152,9 +149,11 @@ input {
 
 .aside_search {
     background-color: #66b0b0;
-    text-align: center;
-    margin: auto;
+    margin: 5px 0;
 }
+
+
+
 
 
 .happy__birthday {
@@ -176,10 +175,7 @@ input {
     padding: 0 10px;
 }
 
-aside {
-    margin-bottom: 30px;
-    line-height: 21px;
-}
+
 
 .happy__birthday:after {
     background: linear-gradient(-45deg, #526695 8px, transparent 0), linear-gradient(45deg, #526695 8px, transparent 0);
@@ -208,8 +204,6 @@ aside {
     width: 100%;
     height: 15px;
 }
-.happy_img img{
-}
 .happy_text{
     max-width:450px;
     font-size:16px;
@@ -219,6 +213,21 @@ aside {
 
 .intro_what {
     background-color: #435684;
+    padding-bottom: 35px;
+    position: relative;
+}
+.intro_what:after{
+    background: linear-gradient(-45deg, #fff 8px, transparent 0), linear-gradient(45deg, #fff 8px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 15px 15px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15px;
 }
 .h2_intro{
     padding-top: 30px;
@@ -231,6 +240,7 @@ aside {
     background-color: #66b0b0;
     border-radius: 10px;
     overflow: hidden;
+     
 }
 .what_ul{
     color:#435684;
@@ -281,8 +291,9 @@ aside {
     padding-right: 20px;
 }
 .intro_img{
-display: block;
-    margin: 10px auto;
+    display: block;
+    margin: 40px 35px;
+
 }
 .intro_input2{
     width:195px;
@@ -291,6 +302,11 @@ display: block;
     display: block;
     margin:auto;
 }
+
+
+
+
+
 .if_text {
     height: 125px;
     border-bottom: 1px solid #6db3b3;
@@ -342,7 +358,7 @@ display: block;
 
 .program3 {
     height: 425px;
-    border-bottom: 1px solid #6db3b3;
+   
     margin-top: 30px;
 
 }
@@ -362,6 +378,33 @@ display: block;
 
 .inro__why {
     background-color: #fccc9b;
+    position: relative;
+}
+.inro__why:before {
+    background: linear-gradient(-135deg, #fff 8px, transparent 0), linear-gradient(135deg, #fff 8px, transparent 0);
+    background-position: left-top;
+    background-repeat: repeat-x;
+    background-size: 15px 15px;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+}
+.inro__why:after{
+    background: linear-gradient(-45deg, #677cad 8px, transparent 0), linear-gradient(45deg, #677cad 8px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 15px 15px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15px;
 }
 .intro__why__all{
     display:flex;
@@ -384,6 +427,7 @@ display: block;
 .reviews{
     background-color: #677cad;
     border-bottom: 1px solid #fff;
+   
 }
 .reviews__all{
     display:flex;
@@ -430,6 +474,21 @@ display: block;
 }
 .last__form{
     background-color: #435784;
+    padding-bottom: 40px;
+    position: relative;
+}
+.last__form:after{
+    background: linear-gradient(-45deg, #fccc9b 8px, transparent 0), linear-gradient(45deg, #fccc9b 8px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 15px 15px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15px;
 }
 .last__form__0{
     display: flex;
@@ -442,6 +501,20 @@ display: block;
 
 .quality{
     background-color: #fccc9b;
+    position: relative;
+}
+.quality:after {
+    background: linear-gradient(-45deg, #fff 8px, transparent 0), linear-gradient(45deg, #fff 8px, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 15px 15px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15px;
 }
 .quality__all{
     display: flex;
@@ -492,24 +565,54 @@ display: block;
 }
 .services_ul{
     padding-left: 40px;
+    line-height: 1.4em;
 }
 .services_form{
     background-color: #66b0b0;
-    padding-top: 10px;
+    padding: 13px 20px 13px 17px;
 }
 .btn_services{
-    margin: auto;
+    margin: 0 auto;
     display:block;
+    padding: 10px;
+    
 }
 
 
 .header3{
     background-color: #66b0b0;
+    position: relative;
+}
+.header3:before {
+    background: linear-gradient(-135deg, #fff 8px, transparent 0), linear-gradient(135deg, #fff 8px, transparent 0);
+    background-position: left-top;
+    background-repeat: repeat-x;
+    background-size: 15px 15px;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+}
+.header3:after{
+        background: linear-gradient(-45deg, #fccc9b 8px, transparent 0), linear-gradient(45deg, #fccc9b 8px, transparent 0);
+        background-position: left-bottom;
+        background-repeat: repeat-x;
+        background-size: 15px 15px;
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 15px;
 }
 .header3-text{
     text-transform: uppercase;
     font-size: 18px;
-    padding:25px 0;
+    padding:35px 0;
     text-align: center;
 }
 
